@@ -1,17 +1,28 @@
 body {
-  background-color: rgb(196, 244, 250);
+  background-color: rgb(212, 231, 255);
 }
 
 hr {
-  background-color: rgb(196, 244, 250);
-  border-color: gray;
-  border-width: 5px;
+  background-color: rgb(212, 231, 255);
+  border-color: rgb(94, 132, 182);
+  border-width: 8px;
   border-style: none;
   border-top-style: dotted;
   width: 5%;
 }
 
-h1,
+h1 {
+  color: #5e5289;
+}
+
 h3 {
-  color: #66bfbf;
+  color: #ad6efa;
+}
+
+.primary {
+  border-spacing: 20px;
+}
+
+.secondary {
+  border-spacing: 10px;
 }
